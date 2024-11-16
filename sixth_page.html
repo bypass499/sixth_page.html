@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Unlocked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #1c1e21;
+            background-color: #ffffff;
+        }
+        .icon {
+            margin-top: -30px; /* Moved up further */
+            width: 350px;
+            height: auto;
+            text-align: center;
+            margin-left: 5px;
+            margin-right: -20px;
+        }
+        .icon img {
+            width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 24px;
+            margin-top: -10px; /* Reduced to move up */
+            font-weight: bold;
+        }
+        .message {
+            font-size: 16px;
+            margin: 5px 20px; /* Reduced to move text up */
+            color: #606770;
+        }
+        .line {
+            width: 90%;
+            height: 1px;
+            background-color: #dcdcdc;
+            margin: 10px auto; /* Reduced to move line up */
+        }
+        .review-section {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px; /* Further reduced to move up */
+            text-align: left;
+            margin-left: 7%;
+            color: #1c1e21;
+        }
+        .tip {
+            font-size: 16px;
+            color: #000000;
+            margin: 10px 20px;
+            text-align: left;
+            margin-left: 7%;
+        }
+        .activity-list {
+            background-color: #f2f3f5;
+            padding: 1px;
+            border-radius: 8px;
+            width: 90%;
+            margin: 15px auto; /* Reduced to move up */
+            text-align: left;
+        }
+        .activity-list ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            font-size: 14px;
+            color: #1c1e21;
+        }
+        .button {
+            width: 90%;
+            padding: 10px;
+            margin: 3px auto; /* Reduced to move buttons up */
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .blue-button {
+            background-color: #1877F2;
+            color: #ffffff;
+            border: none;
+        }
+        .gray-button {
+            background-color: #f2f3f5;
+            color: #1c1e21;
+            border: none;
+        }
+        .button-container {
+            margin-top: 80px; /* Reduced to move container up */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="icon">
+        <img src="https://i.postimg.cc/7ZNfz2NH/20241116-093706.jpg" alt="Unlock Icon">
+    </div>
+
+    <h1>You've unlocked your account</h1>
+    <p class="message">You've secured your login details and can use Facebook again.</p>
+    
+    <div class="line"></div>
+
+    <div class="review-section">Review recent activity</div>
+    <p class="tip">Tip: We can help you review recent activity to make sure your account is still the way you want it.</p>
+
+    <div class="activity-list">
+        <ul>
+            <li>Recent posts and comments</li>
+            <li>Friends added recently</li>
+            <li>Recent logins</li>
+        </ul>
+    </div>
+
+    <div class="button-container">
+        <button class="button blue-button">Review recent activity</button>
+        <button class="button gray-button" onclick="window.location.href='https://www.facebook.com'">Back to Facebook</button>
+    </div>
+
+</body>
+</html>
